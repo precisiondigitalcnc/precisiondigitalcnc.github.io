@@ -1,6 +1,6 @@
 
 h1, h5 {
-    display: flex;
+    display: block;
     background-color: rgba(47, 0, 255,0.8) ;
     background-size: auto; 
     height: 50px;
@@ -18,12 +18,12 @@ h2, h4 {
 }
 
 h1 {
-    color: white; 
+    color: white;
     font-weight: bold;
     text-shadow: 1px;
     text-shadow: rgb(33, 32, 36);
     shape-outside: margin-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35PX;    
     text-align: center;
     align-content: center;
@@ -44,7 +44,7 @@ h3 {
     height: 50px;
     align-items: end;
     background-color: rgba(255, 0, 0, 0.8);
-    color: withe;
+    color: white;
     font-size: 22PX;
     text-align: center;
     vertical-align: middle;   
