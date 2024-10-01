@@ -1,0 +1,106 @@
+
+h1, h5 {
+    display: flex;
+    background-color: rgba(47, 0, 255,0.8) ;
+    background-size: auto; 
+    height: 50px;
+    align-items: center;
+
+
+}
+
+h2, h4 {
+    display: block;
+    background-color: white;
+    height: 1px;
+    align-content: center;
+
+}
+
+h1 {
+    color: white; 
+    font-weight: bold;
+    text-shadow: 1px;
+    text-shadow: rgb(33, 32, 36);
+    shape-outside: margin-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 35PX;    
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+   
+}
+h2 {
+    color: black; 
+    font-weight: bold;
+    font-size: 1PX; 
+    text-align: center; 
+    vertical-align: middle;
+    
+     
+
+}
+h3 {
+    height: 50px;
+    align-items: end;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: withe;
+    font-size: 22PX;
+    text-align: center;
+    vertical-align: middle;   
+}
+
+span {
+    background-color: green;
+    border-radius: 10px;
+    border-color: rgb(255, 115, 0);
+    border-width: 1px;
+    padding: 5px;
+    
+}
+
+
+h4 {
+    color: withe;
+    font-size: 1PX; 
+    text-align: center;   
+    vertical-align: bottom;
+}
+h5 {
+    color: black;
+    font-size: 20PX; 
+    text-align: center;  
+    vertical-align: middle; 
+
+}
+
+#my1div {
+    display: inline-block;
+    object-fit: contain;
+    background: black;
+    height: 150px;
+    width: 100%;
+}
+
+#my1div p {
+    color:rgb(10, 250, 10);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15PX;
+    text-align: right;
+    vertical-align: middle;
+    border-radius: 5px;
+    padding-right: 15px;
+    }
+
+li {
+    display: block;
+    background-color: white;
+    font-size: 20px;
+    color: blue;
+    font-style: bold;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+
