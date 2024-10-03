@@ -1,51 +1,26 @@
-
-h1, h5 {
-    display: block;
-    background-color: rgba(47, 0, 255,0.8) ;
-    background-size: auto; 
-    height: 50px;
-    align-items: center;
-
-
-}
-
-h2, h4 {
-    display: block;
-    background-color: white;
-    height: 1px;
-    align-content: center;
-
-}
-
 h1 {
-    color: white;
+    color: rgb(237, 233, 252);
     font-weight: bold;
-    text-shadow: 1px;
-    text-shadow: rgb(33, 32, 36);
-    shape-outside: margin-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 35PX;    
+    text-shadow: 15px;
+    text-shadow: rgb(54, 102, 163);
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 50PX;    
     text-align: center;
     align-content: center;
-    vertical-align: middle;
-   
 }
 h2 {
+    display: block;
     color: black; 
     font-weight: bold;
-    font-size: 1PX; 
+    font-size: 20PX; 
     text-align: center; 
     vertical-align: middle;
-    
-     
+        
 
 }
 h3 {
-    height: 50px;
-    align-items: end;
-    background-color: rgba(255, 0, 0, 0.8);
-    color: white;
-    font-size: 22PX;
+    color: red;
+    font-size: 25PX;
     text-align: center;
     vertical-align: middle;   
 }
@@ -54,48 +29,45 @@ span {
     background-color: green;
     border-radius: 10px;
     border-color: rgb(255, 115, 0);
-    border-width: 6px;
+    border-width: 1px;
     padding: 5px;
     
 }
 
 
-h4 {
-    color: withe;
-    font-size: 1PX; 
-    text-align: center;   
-    vertical-align: bottom;
-}
-h5 {
-    color: black;
-    font-size: 20PX; 
-    text-align: center;  
-    vertical-align: middle; 
 
-}
-
-#my1div {
-    height: 150px;
-}
-
-#my1div p {
-    color:rgb(10, 250, 10);
+p {
+    color:blue;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 15PX;
+    font-size: 20PX;
     text-align: right;
-    vertical-align: middle;
-    border-radius: 5px;
-    padding-right: 15px;
-    }
+    font-weight: 5px;
+    
+
+}
 
 li {
-    display: block;
-    font-size: 20px;
-    color: blue;
+    font-size: 40px;
+    color: green;
     font-style: bold;
-    font-style: italic;
-    text-decoration: underline;
+
 
 }
 
 
+.responsive-image {
+    width: 100%;   /* The image will take 100% of its container's width */
+    height: auto;  /* Maintains the aspect ratio */
+    max-width: 100%; /* Ensures the image doesn’t grow beyond its original size */
+    display: block; /* Removes unwanted space below the image */
+    border-radius: 200px;
+    border-width: 15px;
+    border-color: black;
+
+  }
+  
+  @media (min-width: 768px) {
+    .responsive-image {
+      max-width: 100%; /* On larger screens, the image will take only 50% of the container’s width */
+    }
+  }
